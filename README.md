@@ -21,7 +21,7 @@ features, e adicionar coisas como:
 
 **Você deve pensar num design de código que suporte esses casos de uso sem grandes modificações.**
 
-**IMPORTANTE: Não é necessário integrar o código ao backend! O software deve ser estruturado de forma que seja fácil integrar com diferentes estratégias de backend, mas neste desafio estas features não precisam ser implementadas.**
+IMPORTANTE: Não é necessário integrar o código ao backend! O software deve ser estruturado de forma que seja fácil integrar com diferentes estratégias de backend, mas, neste desafio, **o backend não precisa ser implementado**.
 
 ### Avaliação
 
