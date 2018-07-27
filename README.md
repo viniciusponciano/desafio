@@ -19,7 +19,7 @@ features, e adicionar coisas como:
 * envio de mensagens via ajax, com as respostas vindo via `long-polling`
 * chat em realtime via WebRTC ou Firebase
 
-Você deve pensar num design de código que suporte esses casos de uso sem grandes modificações.
+**Você deve pensar num design de código que suporte esses casos de uso sem grandes modificações.**
 
 **IMPORTANTE: Não é necessário integrar o código ao backend! O software deve ser estruturado de forma que seja fácil integrar com diferentes estratégias de backend, mas neste desafio estas features não precisam ser implementadas.**
 
