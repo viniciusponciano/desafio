@@ -7,17 +7,18 @@
 
     <title>Chat</title>
     <link rel="stylesheet" href="./styles.css" type="text/css" media="all">
+    <script src="chat.js"></script>
   </head>
 
-  <body>
+  <body onload="requisitaMensagens()">
     <h1>Chat</h1>
 
     <div class="messages">
       <ul class="message-list"></ul>
 
       <div class="message-input">
-        <input type="text" />
-        <button type="button">Enviar</button>
+        <input id="campoMensagem" type="text" onkeypress="campoMensagemAtualizado()"/>
+        <button id="botaoEnviar" type="button" onclick="enviaMensagem()">Enviar</button>
       </div>
     </div>
   </body>
